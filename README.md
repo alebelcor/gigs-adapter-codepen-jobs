@@ -2,6 +2,8 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [CodePen's job board](https://codepen.io/jobs)
 
+[![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-codepen-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-codepen-jobs)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4+ installed. Then run the following:
