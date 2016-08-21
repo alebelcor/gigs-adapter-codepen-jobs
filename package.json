@@ -31,14 +31,17 @@
     "url": "https://github.com/alebelcor/gigs-adapter-codepen-jobs.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "gigs": "^0.1.0",
     "got": "^6.3.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0"
   },
   "engines": {
     "node": ">=4"
