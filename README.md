@@ -4,7 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/gigs-adapter-codepen-jobs.svg)](https://npmjs.org/package/gigs-adapter-codepen-jobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-codepen-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-codepen-jobs)
-[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs.svg)](https://coveralls.io/github/alebelcor/gigs)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-codepen-jobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-codepen-jobs)
 
 ## Install
 
