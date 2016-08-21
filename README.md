@@ -3,6 +3,7 @@
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [CodePen's job board](https://codepen.io/jobs)
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-codepen-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-codepen-jobs)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs.svg)](https://coveralls.io/github/alebelcor/gigs)
 
 ## Install
 
