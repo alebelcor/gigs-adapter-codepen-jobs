@@ -2,6 +2,7 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [CodePen's job board](https://codepen.io/jobs)
 
+[![npm version](https://img.shields.io/npm/v/gigs-adapter-codepen-jobs.svg)](https://npmjs.org/package/gigs-adapter-codepen-jobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-codepen-jobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-codepen-jobs)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs.svg)](https://coveralls.io/github/alebelcor/gigs)
 
