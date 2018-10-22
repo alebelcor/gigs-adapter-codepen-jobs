@@ -36,12 +36,13 @@
   },
   "dependencies": {
     "gigs": "^1.0.0",
-    "got": "^6.3.0"
+    "got": "^8.3.2"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "coveralls": "^2.11.12",
-    "nyc": "^8.1.0"
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.2",
+    "nyc": "^11.9.0",
+    "proxyquire": "^2.1.0"
   },
   "engines": {
     "node": ">=4"
