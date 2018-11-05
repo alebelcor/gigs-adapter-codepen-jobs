@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getlocation from '../lib/get-location';
 
 test('it should return null when remote', t => {
@@ -11,7 +12,7 @@ test('it should return null when no location data', t => {
   t.deepEqual(null, getlocation({}));
   t.deepEqual(null, getlocation({foo: 'bar'}));
   t.deepEqual(null, getlocation({address: null}));
-  t.deepEqual(null, getlocation({address: {city: '', state_prov: '', country: ''}}));
+  t.deepEqual(null, getlocation({address: {city: '', state_prov: '', country: ''}})); // eslint-disable-line camelcase
 });
 
 test('it should return at least the city', t => {
@@ -19,7 +20,7 @@ test('it should return at least the city', t => {
 });
 
 test('it should return at least the state', t => {
-  t.deepEqual('bar', getlocation({address: {state_prov: 'bar'}}));
+  t.deepEqual('bar', getlocation({address: {state_prov: 'bar'}})); // eslint-disable-line camelcase
 });
 
 test('it should return at least the country', t => {
@@ -27,7 +28,7 @@ test('it should return at least the country', t => {
 });
 
 test('it should return at least the city and state', t => {
-  t.deepEqual('aaa, bbb', getlocation({address: {city: 'aaa', state_prov: 'bbb'}}));
+  t.deepEqual('aaa, bbb', getlocation({address: {city: 'aaa', state_prov: 'bbb'}})); // eslint-disable-line camelcase
 });
 
 test('it should return at least the city and country', t => {
@@ -35,9 +36,9 @@ test('it should return at least the city and country', t => {
 });
 
 test('it should return at least the state and country', t => {
-  t.deepEqual('eee, fff', getlocation({address: {state_prov: 'eee', country: 'fff'}}));
+  t.deepEqual('eee, fff', getlocation({address: {state_prov: 'eee', country: 'fff'}})); // eslint-disable-line camelcase
 });
 
 test('it should return the city, state and country', t => {
-  t.deepEqual('ggg, hhh, iii', getlocation({address: {city: 'ggg', state_prov: 'hhh', country: 'iii'}}));
+  t.deepEqual('ggg, hhh, iii', getlocation({address: {city: 'ggg', state_prov: 'hhh', country: 'iii'}})); // eslint-disable-line camelcase
 });

@@ -8,9 +8,11 @@ const getGigs = require('./lib/get-gigs');
 
 const ADAPTER_ENDPOINT = 'https://codepen.io/jobs.json';
 
-module.exports = function gigsAdapterCodepenJobs() {
-  return got.get(ADAPTER_ENDPOINT, getGotOptions())
-    .then(getResponseBody)
-    .then(getGigs)
-    .catch(console.error);
+module.exports = async () => {
+  try {
+    const response = await got.get(ADAPTER_ENDPOINT, getGotOptions());
+    return getGigs(getResponseBody(response));
+  } catch (error) {
+    console.error(error);
+  }
 };
